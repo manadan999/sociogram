@@ -13,6 +13,14 @@
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
+
+<gap:plugin name="org.apache.cordova.inappbrowser" />
+<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
+    <param name="APP_ID" value="253758001480192" />
+    <param name="APP_NAME" value="Ohoonline.com" />
+</gap:plugin>
+
+
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
